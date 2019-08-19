@@ -28,9 +28,6 @@ public class Message {
         return mensajes.get(lastMessage);
     }
 
-
-
-
     private String title;
     private String message;
 

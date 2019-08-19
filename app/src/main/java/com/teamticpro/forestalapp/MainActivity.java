@@ -28,13 +28,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onLoadMessages(){
-        Message.addMessage("CUIDA EL MEDIO AMBIENTE","Asdjkahsjdhasjkdhjkashdjkashdjkhasjkdhasjkhdjka");
-        Message.addMessage("CUIDA EL MEDIO AMBIENTE 1","Asdjkahsjdhasjkdhjkashdjkashdjkhasjkdhasjkhdjka");
-        Message.addMessage("CUIDA EL MEDIO AMBIENTE 2","Asdjkahsjdhasjkdhjkashdjkashdjkhasjkdhasjkhdjka");
-        Message.addMessage("CUIDA EL MEDIO AMBIENTE 3","Asdjkahsjdhasjkdhjkashdjkashdjkhasjkdhasjkhdjka");
-        Message.addMessage("CUIDA EL MEDIO AMBIENTE 4","Asdjkahsjdhasjkdhjkashdjkashdjkhasjkdhasjkhdjka");
-        Message.addMessage("CUIDA EL MEDIO AMBIENTE 5","Asdjkahsjdhasjkdhjkashdjkashdjkhasjkdhasjkhdjka");
-        Message.addMessage("CUIDA EL MEDIO AMBIENTE 6","Asdjkahsjdhasjkdhjkashdjkashdjkhasjkdhasjkhdjka");
+        Message.addMessage("Sabias que...","Más de 5 millones de personas mueren cada año por beber agua contaminada.");
+        Message.addMessage("Sabias que...","El 90% del agua que consume la población mundial procede del agua subterránea, un buen procesamiento de los desechos solidos ayuda a evitar la continumación en las agua subterraneas.");
+        Message.addMessage("Sabias que...","El papel puede reciclarse hasta 11 veces.");
+        Message.addMessage("Sabias que...","Las baterías de los móviles contienen metales pesados contaminantes para el suelo.");
+        Message.addMessage("Sabias que...","Los ordenadores llevan integrado 1,5 kilos de cobre susceptible de ser reciclado.");
+        Message.addMessage("Sabias que...","Cada año son vertidos en los océanos 14 mil millones de toneladas de basura.");
+        Message.addMessage("Sabias que...","Generamos 21,5 millones de toneladas de residuos alimenticios cada año.");
+        Message.addMessage("Sabias que...","Las latas de aluminio se pueden reciclar y volver a poner en el estante de una tienda en tan sólo unos 2 meses.");
+        Message.addMessage("Sabias que...","El reciclaje de una botella de vidrio ahorra suficiente energía para alimentar una bombilla de 100 vatios durante cuatro horas.");
+        Message.addMessage("Sabias que...","El reciclaje de una tonelada de plástico puede ahorrar hasta 1.000-2.000 litros de gasolina.");
     }
 
     private Runnable OverloadMessage() {
