@@ -44,7 +44,7 @@ public class GameMain extends Fragment {
         // Inflate the layout for this fragment
 
         View main = inflater.inflate(R.layout.fragment_game_main, container, false);
-        Button asdsa = main.findViewById(R.id.boton1);
+        Button asdsa = main.findViewById(R.id.start_game);
         asdsa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

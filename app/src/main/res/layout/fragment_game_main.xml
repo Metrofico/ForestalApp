@@ -5,19 +5,45 @@
     android:layout_height="match_parent"
     tools:context=".game.fragments.GameMain">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/high_score_text"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:textAlignment="center"
-        android:gravity="center"
-        android:text="BIENVENIDO AL JUEGO DE MESA" />
+        android:textSize="40dp"
+        android:gravity="top"
+        android:text="Mayor puntaje" />
+
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/high_score_text"
+        android:textSize="30dp"
+        android:text="Unknown"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/high_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:textSize="30dp"
+        android:text="0"
+        android:textAlignment="center"
+        />
     <Button
-        android:id="@+id/boton1"
+        android:id="@+id/start_game"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:text="Empezar"
+        android:layout_centerInParent="true"
         android:layout_width="100dp"
         android:background="@drawable/button_circle"
-
         android:layout_height="100dp" />
 
+    
 </RelativeLayout>
