@@ -49,6 +49,7 @@
                 android:textColor="#000"
                 android:textSize="18sp" />
             <com.teamticpro.forestalapp.Componentes.AnimatedProgressBar
+                android:id="@+id/progress_bar_main"
                 android:layout_width="match_parent"
                 android:layout_below="@id/_texto_aleatorio"
                 android:layout_marginBottom="2dp"
