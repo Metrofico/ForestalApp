@@ -33,35 +33,19 @@ public class GameMain extends Fragment {
         this.contexto = (GameActivity) context;
     }
 
-
-    // ACTIVITY => PADRE
-       // -> FRAGMENT CHILD
-       // ->
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-
         View main = inflater.inflate(R.layout.fragment_game_main, container, false);
         Button asdsa = main.findViewById(R.id.start_game);
         asdsa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toFragment(false, new Question1());
+
             }
         });
 
         return main;
     }
 
-    public void toFragment(boolean allowBack, Fragment fragment){
-        FragmentManager manager = contexto.getSupportFragmentManager();
-        FragmentTransaction transaction = manager.beginTransaction();
-        transaction.replace(R.id.container_game, fragment);
-        if(allowBack){
-            transaction.addToBackStack(null);
-        }
-        transaction.commit();
-    }
 }
