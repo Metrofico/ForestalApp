@@ -15,10 +15,13 @@ public class GameActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
+        showFragment();
     }
 
-    public void showRandomFragment(){
-
+    public void showFragment(){
+        FragmentManager manager = this.getSupportFragmentManager();
+        FragmentTransaction transaction = manager.beginTransaction();
+        transaction.replace(R.id.container_game, new GameMain());
+        transaction.commit();
     }
-
 }
