@@ -5,44 +5,57 @@
     android:layout_height="match_parent"
     tools:context=".game.fragments.GameMain">
 
-    <TextView
-        android:id="@+id/high_score_text"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:textAlignment="center"
-        android:textSize="40dp"
-        android:gravity="top"
-        android:text="Mayor puntaje" />
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+
+            android:id="@+id/high_score_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/moonlightning"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center"
+            android:textSize="40dp"
+
+            android:text="Mayor puntaje" />
 
 
-    <TextView
-        android:id="@+id/nombre"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/high_score_text"
-        android:textSize="30dp"
-        android:text="Unknown"
-        android:textAlignment="center"
-        />
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:layout_below="@+id/high_score_text"
+            android:textSize="30dp"
+            android:text="Unknown"
+            android:textAlignment="center"
+            />
 
-    <TextView
-        android:id="@+id/high_score"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/nombre"
-        android:textSize="30dp"
-        android:text="0"
-        android:textAlignment="center"
-        />
-    <Button
-        android:id="@+id/start_game"
-        android:textColor="#fff"
-        android:textAllCaps="false"
-        android:text="Empezar"
-        android:layout_centerInParent="true"
-        android:layout_width="200dp"
-        android:background="@drawable/button_rectangle"
-        android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/high_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre"
+            android:textSize="30dp"
+            android:text="0"
+            android:textColor="#000"
+            android:fontFamily="@font/roboto_light"
+            android:textAlignment="center"
+            />
+        <Button
+            android:id="@+id/start_game"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:text="Empezar"
+            android:layout_below="@+id/high_score"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="200dp"
+            android:background="@drawable/button_rectangle"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
 
 </RelativeLayout>

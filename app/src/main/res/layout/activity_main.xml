@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.teamticpro.forestalapp.Componentes.TumblrRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,72 +7,80 @@
     android:padding="5dp"
     tools:context=".MainActivity">
 
-    <com.teamticpro.forestalapp.Componentes.ShadowLayout
-        android:id="@+id/box_message"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="180dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="25dp"
-        app:sl_shadow_angle="89"
-        app:sl_shadow_color="#b9b9b9"
-        app:sl_shadow_distance="5dp"
-        app:sl_shadow_radius="2dp"
-        app:sl_shadowed="true">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#fff">
-            <TextView
-                android:id="@+id/_texto_aleatorio_titulo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="ESTE ES MI TITULO"
-                android:textSize="28dp"
-                android:fontFamily="@font/moonlightning"
-                android:textColor="#BA000000"
-                android:textAlignment="center"
-                android:minHeight="30dp"/>
-
-            <TextView
-                android:id="@+id/_texto_aleatorio"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/_texto_aleatorio_titulo"
-                android:layout_marginTop="5dp"
-                android:fontFamily="@font/roboto_light"
-                android:gravity="center"
-                android:minHeight="140dp"
-                android:padding="15dp"
-                android:text="ajslkdjlasjdlksajdlkjlskadjlkasjdlkasjdlkasjdlkjaskldjaslkdjaslkdjlkasjdajslkdjlasjdlksajdlkjlskadjlkasjdlkasjdlkasjdlkjaskldjaslkdjaslkdjlkasjdajslkdjlasjdlksajdlkjlskadjlkasjdlkasjdlkasjdlkjaskldjaslkdjaslkdjlkasjdajslkdjlasjdlksajdlkjlskadjlkasjdlkasjdlkasjdlkjaskldjaslkdjaslkdjlkasjd"
-                android:textAlignment="center"
-                android:textColor="#000"
-                android:textSize="18sp" />
-            <com.teamticpro.forestalapp.Componentes.AnimatedProgressBar
-                android:id="@+id/progress_bar_main"
-                android:layout_width="match_parent"
-                android:layout_below="@id/_texto_aleatorio"
-                app:progressColor="@color/ProgressColorMain"
-                android:layout_marginBottom="2dp"
-                android:layout_height="5dp" />
-            
-
-        </RelativeLayout>
-
-    </com.teamticpro.forestalapp.Componentes.ShadowLayout>
-
-    <Button
-        android:id="@+id/jugar_"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_below="@id/box_message"
+    <RelativeLayout
+        android:layout_width="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginTop="20dp"
-        android:text="JUGAR"
-        android:textColor="#fff"
-        android:fontFamily="@font/roboto_light"
-        android:textSize="20dp"
-        android:background="@drawable/button_circle"/>
+        android:gravity="top"
+        android:paddingTop="50dp"
+        android:layout_height="match_parent">
+        <com.teamticpro.forestalapp.Componentes.ShadowLayout
+            android:id="@+id/box_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="180dp"
+            android:layout_alignParentTop="true"
 
-</RelativeLayout>
+            app:sl_shadow_angle="89"
+            app:sl_shadow_color="#b9b9b9"
+            app:sl_shadow_distance="5dp"
+            app:sl_shadow_radius="2dp"
+            app:sl_shadowed="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff">
+                <TextView
+                    android:id="@+id/_texto_aleatorio_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ESTE ES MI TITULO"
+                    android:textSize="28dp"
+                    android:fontFamily="@font/moonlightning"
+                    android:textColor="#BA000000"
+                    android:textAlignment="center"
+                    android:minHeight="30dp"/>
+
+                <TextView
+                    android:id="@+id/_texto_aleatorio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/_texto_aleatorio_titulo"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:gravity="center"
+                    android:minHeight="140dp"
+                    android:padding="15dp"
+                    android:text="ajslkdjlasjdlksajdlkjlskadjlkasjdlkasjdlkasjdlkjaskldjaslkdjaslkdjlkasjdajslkdjlasjdlksajdlkjlskadjlkasjdlkasjdlkasjdlkjaskldjaslkdjaslkdjlkasjdajslkdjlasjdlksajdlkjlskadjlkasjdlkasjdlkasjdlkjaskldjaslkdjaslkdjlkasjdajslkdjlasjdlksajdlkjlskadjlkasjdlkasjdlkasjdlkjaskldjaslkdjaslkdjlkasjd"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+                <com.teamticpro.forestalapp.Componentes.AnimatedProgressBar
+                    android:id="@+id/progress_bar_main"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/_texto_aleatorio"
+                    app:progressColor="@color/ProgressColorMain"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="5dp" />
+
+
+            </RelativeLayout>
+
+        </com.teamticpro.forestalapp.Componentes.ShadowLayout>
+
+        <Button
+            android:id="@+id/jugar_"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_below="@id/box_message"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="JUGAR"
+            android:textColor="#fff"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="20dp"
+            android:background="@drawable/button_circle"/>
+    </RelativeLayout>
+
+
+</com.teamticpro.forestalapp.Componentes.TumblrRelativeLayout>
