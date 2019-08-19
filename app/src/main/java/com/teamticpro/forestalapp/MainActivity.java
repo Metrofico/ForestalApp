@@ -52,11 +52,11 @@ public class MainActivity extends AppCompatActivity {
         Message.addMessage("Sabias que...","El reciclaje de una tonelada de plástico puede ahorrar hasta 1.000-2.000 litros de gasolina.");
     }
 
-    private Runnable OverloadMessage() {
-        return new RunTask().addTimerRunnable(new Runnable() {
+    private void OverloadMessage() {
+        new RunTask().addTimerRunnable(new Runnable() {
             @Override
             public void run() {
-                if (progressBar.getProgress()>= 100) {
+                if (progressBar.getProgress() >= 100) {
                     progressBar.setProgress(0);
                     Message message = Message.getNextMessageFromLast();
                     titulo_view.setText(message.getTitle());
