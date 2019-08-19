@@ -55,8 +55,6 @@
                 app:progressColor="@color/ProgressColorMain"
                 android:layout_marginBottom="2dp"
                 android:layout_height="5dp" />
-            
-
         </RelativeLayout>
 
     </com.teamticpro.forestalapp.Componentes.ShadowLayout>

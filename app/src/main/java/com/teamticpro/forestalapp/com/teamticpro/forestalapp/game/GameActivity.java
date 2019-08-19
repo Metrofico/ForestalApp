@@ -1,8 +1,10 @@
-package com.teamticpro.forestalapp;
+package com.teamticpro.forestalapp.com.teamticpro.forestalapp.game;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.teamticpro.forestalapp.R;
 
 public class GameActivity extends AppCompatActivity {
 
