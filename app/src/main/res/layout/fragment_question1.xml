@@ -5,10 +5,50 @@
     android:layout_height="match_parent"
     tools:context=".game.fragments.Question1">
 
-
-    <TextView
+    <RelativeLayout
+        android:id="@+id/pregunta_base"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="HOLA ESTE ES LA PREGUNTA 1"/>
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:minHeight="100dp">
+        <TextView
+            android:id="@+id/pregunta_mensaje"
+            android:text="¿Qué es mas facil hacer?, o Seguir haciendo, ¿Cual crees que sea la verdadera respuesta a mi pregunta?"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:fontFamily="@font/roboto_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/respuestas_"
+        android:layout_width="match_parent"
+        android:layout_below="@id/pregunta_base"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp">
+
+        <RadioGroup
+            android:id="@+id/radio_group_answers"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:minHeight="100dp">
+
+        </RadioGroup>
+
+        <Button
+            android:layout_below="@id/radio_group_answers"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/next_button"
+            android:text="SIGUIENTE"
+            android:textColor="#fff"
+            android:background="@drawable/button_rectangle"
+            android:layout_width="180dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
 
 </RelativeLayout>
