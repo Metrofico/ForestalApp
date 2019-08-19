@@ -8,7 +8,7 @@ public class Pregunta {
 
     public Pregunta(String texto,String respuesta,String[] opciones){
         this.texto = texto;
-        this.respuesta=respuesta.trim();
+        this.respuesta=respuesta.toLowerCase();
         this.opciones=opciones;
         allLower();
     }
