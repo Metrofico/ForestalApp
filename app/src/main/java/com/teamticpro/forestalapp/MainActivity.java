@@ -1,6 +1,9 @@
 package com.teamticpro.forestalapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.teamticpro.forestalapp.Componentes.AnimatedProgressBar;
 import com.teamticpro.forestalapp.Objetos.Message;
 import com.teamticpro.forestalapp.Task.RunTask;
+import com.teamticpro.forestalapp.com.teamticpro.forestalapp.game.GameActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,14 +19,21 @@ public class MainActivity extends AppCompatActivity {
     private AnimatedProgressBar progressBar;
     private TextView titulo_view;
     private TextView message_view;
-
+    private Button jugar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         progressBar = findViewById(R.id.progress_bar_main);
         titulo_view = findViewById(R.id._texto_aleatorio_titulo);
-        message_view = findViewById(R.id._texto_aleatorio);
+         message_view = findViewById(R.id._texto_aleatorio);
+        jugar = findViewById(R.id.jugar_);
+        jugar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, GameActivity.class));
+            }
+        });
         onLoadMessages();
         setupMessages();
         OverloadMessage();

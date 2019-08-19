@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <com.teamticpro.forestalapp.Componentes.ShadowLayout
+        android:id="@+id/box_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="180dp"
@@ -55,8 +56,23 @@
                 app:progressColor="@color/ProgressColorMain"
                 android:layout_marginBottom="2dp"
                 android:layout_height="5dp" />
+            
+
         </RelativeLayout>
 
     </com.teamticpro.forestalapp.Componentes.ShadowLayout>
+
+    <Button
+        android:id="@+id/jugar_"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/box_message"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="JUGAR"
+        android:textColor="#fff"
+        android:fontFamily="@font/roboto_light"
+        android:textSize="20dp"
+        android:background="@drawable/button_circle"/>
 
 </RelativeLayout>
