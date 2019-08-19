@@ -1,4 +1,4 @@
-package com.teamticpro.forestalapp.com.teamticpro.forestalapp.game;
+package com.teamticpro.forestalapp.game;
 
 import androidx.appcompat.app.AppCompatActivity;
 
