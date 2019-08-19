@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.teamticpro.forestalapp.Componentes.AnimatedProgressBar;
 import com.teamticpro.forestalapp.Objetos.Message;
 import com.teamticpro.forestalapp.Task.RunTask;
-import com.teamticpro.forestalapp.com.teamticpro.forestalapp.game.GameActivity;
+import com.teamticpro.forestalapp.game.GameActivity;
 
 public class MainActivity extends AppCompatActivity {
 
