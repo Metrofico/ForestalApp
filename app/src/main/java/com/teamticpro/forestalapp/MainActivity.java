@@ -15,13 +15,14 @@ public class MainActivity extends AppCompatActivity {
     private AnimatedProgressBar progressBar;
     private TextView titulo_view;
     private TextView message_view;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         progressBar = findViewById(R.id.progress_bar_main);
         titulo_view = findViewById(R.id._texto_aleatorio_titulo);
-         message_view = findViewById(R.id._texto_aleatorio);
+        message_view = findViewById(R.id._texto_aleatorio);
         onLoadMessages();
         setupMessages();
         OverloadMessage();
