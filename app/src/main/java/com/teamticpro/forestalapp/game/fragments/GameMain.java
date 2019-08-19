@@ -19,9 +19,6 @@ import com.teamticpro.forestalapp.game.GameActivity;
 
 import static android.content.Context.MODE_PRIVATE;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class GameMain extends Fragment {
 
 

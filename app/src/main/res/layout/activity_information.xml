@@ -78,6 +78,190 @@
                 android:text="El origen de los Desechos Sólidos lo determina el tipo de actividades que las personas realizan. Por ejemplo, es evidente que los desechos que se producen en las casas son diferentes a los que resultan del trabajo en las fábricas.El origen de los Desechos Sólidos lo determina el tipo de actividades que las personas realizan. Por ejemplo, es evidente que los desechos que se producen en las casas son diferentes a los que resultan del trabajo en las fábricas."
                 android:layout_below="@id/title_3"
                 />
+
+            <TextView
+                android:id="@+id/title_4"
+                android:layout_width="match_parent"
+                android:layout_below="@id/message_2"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/moonlightning"
+                android:layout_marginStart="20dp"
+                android:text="Por su composición y tiempo que tardan en desaparecer tenemos a los organicos e inorganicos:"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/message_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="El origen de los Desechos Sólidos lo determina el tipo de actividades que las personas realizan. Por ejemplo, es evidente que los desechos que se producen en las casas son diferentes a los que resultan del trabajo en las fábricas.El origen de los Desechos Sólidos lo determina el tipo de actividades que las personas realizan. Por ejemplo, es evidente que los desechos que se producen en las casas son diferentes a los que resultan del trabajo en las fábricas."
+                android:layout_below="@id/title_4"
+                />
+
+            <TextView
+                android:id="@+id/message_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="La producción de desechos sólidos inorgánicos es más reciente y se inicia con la producción industrial. Una vez que los seres humanos desarrollaron técnicas para fabricar utensilios y herramientas en materiales duraderos como la arcilla, la piedra, el vidrio y distintos metales, se comenzó también la producción de este tipo de desechos. Debido a que los desechos inorgánicos pueden tardar cientos de años en desintegrarse, y con las pautas de consumo desmedido que tienen las personas en nuestro país, la acumulación de Desechos Sólidos y sus efectos contaminantes, se han convertido en un problema nacional, que involucra a instituciones gubernamentales, privadas y a comunidades. Ni el agua, ni el suelo, ni el aire pueden absorber la cantidad de basura que es arrojada cada día al planeta."
+                android:layout_below="@id/message_3"
+                />
+
+            <TextView
+                android:id="@+id/title_5"
+                android:layout_width="match_parent"
+                android:layout_below="@id/message_4"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/moonlightning"
+                android:layout_marginStart="20dp"
+                android:text="Tiempo de descomposición de los desechos sólidos:"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/message_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="En condiciones óptimas de descomposición (presencia de oxígeno, luz solar y humedad), los desechos orgánicos e inorgánicos pueden tardar, por ejemplo:\n\nCáscaras de frutas y verduras:\n\n de 3 semanas a 1 mes.\n\n
+Un cuaderno:\n\n de 1 a 2 meses.\n\n
+Un zapato de cuero natural:\n\n de 3 a 5 años.\n\n
+Una lata de aluminio:\n\n de 350 a 500 años.\n\n
+Una botella de vidrio:\n\n no se descompone.\n\n
+Una bolsa de plástico:\n\n alrededor de 500 años.\n\n
+Un empaque tetra brick:\n\n indefinido.
+"
+                android:layout_below="@id/title_5"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/title_6"
+                android:layout_width="match_parent"
+                android:text="Desechos ordinarios y especiales:"
+                android:fontFamily="@font/moonlightning"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/message_5"
+                />
+
+            <TextView
+                android:id="@+id/title_7"
+                android:layout_width="match_parent"
+                android:layout_below="@id/title_6"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/moonlightning"
+                android:layout_marginStart="20dp"
+                android:text="Desechos Ordinarios:"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/message_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="Son aquellos que no requieren un tratamiento especial antes de ser dispuestos, entre los que tenemos los desechos domésticos."
+                android:layout_below="@id/title_7"
+                />
+
+            <TextView
+                android:id="@+id/title_8"
+                android:layout_width="match_parent"
+                android:layout_below="@id/message_6"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/moonlightning"
+                android:layout_marginStart="20dp"
+                android:text="Desechos Especiales:"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/message_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="Son aquellos que necesitan un manejo especial y vigilancia desde su generación hasta su disposición final debido a sus características tóxicas, explosivas, corrosivas o radiactivas, como lo serían algunos desechos industriales y los hospitalarios."
+                android:layout_below="@id/title_8"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/title_9"
+                android:layout_width="match_parent"
+                android:text="Problemática con los Desechos Sólidos"
+                android:fontFamily="@font/moonlightning"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/message_7"
+                />
+            <TextView
+                android:id="@+id/message_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="Aunque las personas suelen echarle la culpa a los Desechos Sólidos por la contaminación que provocan, son las mismas personas las responsables del problema, debido a sus malos hábitos y el deficiente o nulo tratamiento que le dan a los mismos."
+                android:layout_below="@id/title_9"
+                />
+
+            <TextView
+                android:id="@+id/title_10"
+                android:layout_width="match_parent"
+                android:layout_below="@id/message_8"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/moonlightning"
+                android:layout_marginStart="20dp"
+                android:text="Entre los problemas que representan los desechos sólidos están:"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/message_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="Problemas con los Desechos Sólidos dentro del hogar (vectores, malos olores, suciedad, enfermedades).\n\n
+Problemas con los Desechos Sólidos cerca del hogar (bolsas y recipientes rotos, vectores, malos olores, suciedad, enfermedades).\n\n
+Malos hábitos de ciertas personas (tiran los desechos al suelo, no barren el frente de sus casas).\n\n
+Excesiva producción de Desechos Sólidos por desconocimiento de las prácticas para reducir la cantidad (reutilización, reciclaje, etc.).\n\n
+Falta de un lugar donde disponer los Desechos Sólidos.\n\n
+Acumulación de Desechos Sólidos en lotes y terrenos baldíos.\n\n
+Acumulación de Desechos Sólidos en ríos y aguas.
+"
+                android:layout_below="@id/title_10"
+                />
+
         </RelativeLayout>
     </ScrollView>
 
