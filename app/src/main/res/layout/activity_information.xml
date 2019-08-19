@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EBEBEB"
+    android:layout_height="match_parent"
+    tools:context=".Information">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/title_1"
+                android:text="¿Qué son los desechos sólidos?"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:fontFamily="@font/moonlightning"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_below="@id/title_1"
+                android:layout_marginTop="50dp"
+                android:layout_width="160dp"
+                android:layout_height="250dp"
+                android:src="@drawable/ic_waste_01"
+                />
+            <TextView
+                android:id="@+id/message_1"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@id/imageView"
+                android:layout_below="@id/title_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:text="Los desechos sólidos son conocidos comúnmente como “basura” y representan una amenaza por su producción excesiva e incontrolada, ya que, contribuyen a la contaminación de las aguas, la tierra, el aire, y también afean el paisaje. Además, ponen en peligro la salud humana y la naturaleza en general."
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/title_2"
+                android:layout_width="match_parent"
+                android:text="¿Como se clasifican los desechos sólidos?"
+                android:fontFamily="@font/moonlightning"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/message_1"
+                />
+            <TextView
+                android:id="@+id/title_3"
+                android:layout_width="match_parent"
+                android:layout_below="@id/title_2"
+                android:textColor="#585858"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/moonlightning"
+                android:layout_marginStart="20dp"
+                android:text="Por su origen"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/message_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="El origen de los Desechos Sólidos lo determina el tipo de actividades que las personas realizan. Por ejemplo, es evidente que los desechos que se producen en las casas son diferentes a los que resultan del trabajo en las fábricas.El origen de los Desechos Sólidos lo determina el tipo de actividades que las personas realizan. Por ejemplo, es evidente que los desechos que se producen en las casas son diferentes a los que resultan del trabajo en las fábricas."
+                android:layout_below="@id/title_3"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

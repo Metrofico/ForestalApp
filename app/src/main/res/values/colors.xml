@@ -5,6 +5,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="splashscreenbackground">#5D9455</color>
     <color name="ProgressColorMain">#206B17</color>
+    <color name="background_desplegable">#3E5D94</color>
+        <color name="white">#ffffff</color>
 
     <color name="backLayout1">#1685E2</color>
     <color name="backLayout2">#0C5561</color>

@@ -2,6 +2,7 @@
 <com.teamticpro.forestalapp.Componentes.TumblrRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
@@ -81,6 +82,47 @@
             android:textSize="20dp"
             android:background="@drawable/button_circle"/>
     </RelativeLayout>
+    <com.teamticpro.forestalapp.Componentes.Reveal.ClipRevealFrame
+        android:id="@+id/menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_desplegable"
+        android:visibility="invisible">
 
+        <com.ogaclejapan.arclayout.ArcLayout
+            android:id="@+id/arc_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:arc_axisRadius="@dimen/layout_child_offset_tumblr"
+            app:arc_origin="center"
+            app:arc_radius="@dimen/layout_radius_tumblr">
+
+            <Button
+                style="@style/Item.Tumblr"
+                android:text="DESECHO SOLIDO 1"
+                />
+
+            <Button
+                style="@style/Item.Tumblr"
+                android:text="DESECHO SOLIDO 2"
+                />
+
+            <Button
+                style="@style/Item.Tumblr"
+                android:text="DESECHO SOLIDO 3"
+                />
+
+            <Button
+                style="@style/Item.Tumblr"
+                android:text="DESECHO SOLIDO 4"/>
+        </com.ogaclejapan.arclayout.ArcLayout>
+        <Button
+            android:id="@+id/center_item"
+            style="@style/Item.Tumblr"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:text=" "
+            />
+    </com.teamticpro.forestalapp.Componentes.Reveal.ClipRevealFrame>
 
 </com.teamticpro.forestalapp.Componentes.TumblrRelativeLayout>
