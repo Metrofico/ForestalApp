@@ -23,7 +23,7 @@ public class Message {
         }
         lastMessage++;
         if(lastMessage >= mensajes.size()){
-            lastMessage = mensajes.size()-1;
+            lastMessage = 0;
         }
         return mensajes.get(lastMessage);
     }

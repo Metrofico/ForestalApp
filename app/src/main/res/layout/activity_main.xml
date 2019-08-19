@@ -52,8 +52,9 @@
                 android:id="@+id/progress_bar_main"
                 android:layout_width="match_parent"
                 android:layout_below="@id/_texto_aleatorio"
+                app:progressColor="@color/ProgressColorMain"
                 android:layout_marginBottom="2dp"
-                android:layout_height="12dp" />
+                android:layout_height="5dp" />
             
 
         </RelativeLayout>

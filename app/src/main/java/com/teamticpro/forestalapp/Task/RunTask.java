@@ -38,35 +38,13 @@ public class RunTask {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    Runnable xd = e;
-                    x.post(xd);
+                    x.post(e);
                 }
             }
         };
         t = new Thread(n);
         t.start();
 
-
-        // this method performs the task
-
-       /* Runnable runnable = new Runnable() {
-            @Override
-            public void run() {
-
-                x.postDelayed(e, 1000);
-            }
-        };
-        x.postDelayed(runnable, 1000);
-        new Thread(runnable).start();*/
-        /*new AsyncTask<Void, Void, Void>() {
-            @Override
-            protected Void doInBackground(final Void... params) {
-
-                SystemClock.sleep(miliseconds);
-                Looper.loop();
-                return null;
-            }
-        }.execute();*/
         return e;
     }
 

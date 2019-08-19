@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="splashscreenbackground">#5D9455</color>
+    <color name="ProgressColorMain">#206B17</color>
 </resources>
